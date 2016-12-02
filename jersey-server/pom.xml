@@ -50,6 +50,7 @@
         <version>1.18</version>
     </parent>
     <artifactId>jersey-server</artifactId>
+    <version>1.18.aspect.method.invocation-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>jersey-server</name>
     <dependencies>
@@ -124,7 +125,7 @@
                 <dependency>
                     <groupId>com.sun.jersey</groupId>
                     <artifactId>jersey-core</artifactId>
-                    <version>${project.version}</version>
+                    <version>${parent.version}</version>
                     <classifier>cobertura</classifier>
                 </dependency>
             </dependencies>
@@ -138,7 +139,7 @@
                 <dependency>
                     <groupId>com.sun.jersey</groupId>
                     <artifactId>jersey-core</artifactId>
-                    <version>${project.version}</version>
+                    <version>${parent.version}</version>
                 </dependency>
             </dependencies>
         </profile>
